@@ -7,7 +7,7 @@ export class TarjetaCredito {
     fechaCreacion: Date;
     fechaActualizacion: Date;
 
-    construcotr(titular: string, numeroTarjeta: string, fechaExpiracion: string, cvv: number) {
+    constructor(titular: string, numeroTarjeta: string, fechaExpiracion: string, cvv: number) {
         this.titular = titular;
         this.numeroTarjeta = numeroTarjeta;
         this.fechaExpiracion = fechaExpiracion;
